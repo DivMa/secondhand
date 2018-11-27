@@ -1,0 +1,110 @@
+/**app.wxss**/
+@import "./style/weui.wxss";
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+page {
+  background-color: #f3f3f3;
+  font-family: "微软雅黑", "宋体";
+}
+
+.logo {
+  background-color: #f0eff4;
+  height: 90rpx;
+  line-height: 88rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.logo image {
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.logo .input {
+  width: 710rpx;
+  height: 50rpx;
+  border: 0;
+  border-radius: 10rpx;
+  background-color: #fff;
+  color: #999;
+  text-align: center;
+  margin-top: 20rpx;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  background-color: #fff;
+}
+
+.head view {
+  flex: 1;
+}
+
+.head navigator {
+  display: inline-block;
+  line-height: 100rpx;
+}
+
+.head navigator.on {
+  border-bottom: 1px solid #363636;
+}
+
+
+/* 收货地址的全部配置 */
+.citypickers{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  background-color: red;
+}
+
+.citybody {
+  position: fixed;
+  bottom: 0px;
+}
+
+.cityheader {
+  position: absolute;
+  top:0px;
+  width: 100%;
+  z-index: 4;
+}
+
+.city-cancel {
+  float: left;
+  margin: 20rpx;
+  color: #818181;
+}
+
+.city-true {
+  float: right;
+  margin: 20rpx;
+  color: #2FB42E
+}
+
+.section .picker {
+  background-color: #fff;
+  border-bottom: 1px #d9d9d9 solid;
+  border-top: 1px #d9d9d9 solid;
+  padding: 20rpx;
+}
+.hr{
+  border-bottom: 1px #dbd9d9 solid
+}
