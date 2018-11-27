@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shoppingCar/shoppingCar",
+    "pages/post/post",
+    "pages/order/order",
+    "pages/my/my",
+    "pages/classify/job/teacher/teacher",
+    "pages/morebook/morebook",
+    "pages/morething/morething",
+    "pages/bookdetail/bookdetail",
+    "pages/thingdetail/thingdetail",
+    "pages/search-book/search-book", 
+    "pages/classify/thing-search/thing-search",
+    "pages/classify/sale/sale",
+    "pages/classify/welfare/welfare",
+    "pages/classify/job/job",
+    "pages/my/addressAdmin/addressAdmin",
+    "pages/my/mycar/mycar",
+    "pages/my/myPost/myPost",
+    "pages/my/mySetting/mySetting",
+    "pages/my/myorder/myorder",
+    "pages/my/purchaseHistory/purchaseHistory",
+    "pages/my/systemNotification/systemNotification"
+  
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#1E68C9",
+    "backgroundTextStyle": "dark",
+    "navigationBarTitleText": "校园二手交易",
+    "navigationBarTextStyle": "#fff",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabBar/home.png",
+        "selectedIconPath": "images/tabBar/home.fill.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/shoppingCar/shoppingCar",
+        "iconPath": "images/tabBar/shoppingCar.png",
+        "selectedIconPath": "images/tabBar/shoppingCar.fill.png"
+      },
+      {
+        "text": "发布",
+        "pagePath": "pages/post/post",
+        "iconPath": "images/tabBar/release.png",
+        "selectedIconPath": "images/tabBar/release.png"
+      },
+      {
+        "text": "订单",
+        "pagePath": "pages/order/order",
+        "iconPath": "images/tabBar/order.png",
+        "selectedIconPath": "images/tabBar/order.fill.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "images/tabBar/mine.png",
+        "selectedIconPath": "images/tabBar/mine.fill.png"
+      }
+    ],
+    "color": "#000000",
+    "selectedColor": "#1E68C9"
+  },
+  "debug": true
+}
