@@ -1,0 +1,20 @@
+<!--pages/shoppingCar/shoppingCar.wxml-->
+<view class='box'>
+  <view class='wrapper'>
+    <view class="tab-content {{selectBook? 'select': 'noSelect'}}" bindtap='chooseBookCart'>书本</view>
+    <view class="tab-content {{selectThing? 'select': 'noSelect'}}" bindtap='chooseThingCart'>物品</view>
+
+  </view>
+</view>
+
+<!-- 底部操作栏 -->
+<view class='cart-bottom'>
+  <!-- wx:if 是否全选显示不同图标 -->
+  <icon wx:if="{{selectAllStatus}}" class='cart-iconAll' type="success_circle" color="red" bindtap="selectAll" />
+  <icon wx:else type="circle" class='cart-iconAll' color="#ff7100" bindtap="selectAll" />
+  <text class='cart-allSelect' bindtap="selectAll">全选</text>
+  <!-- 总价 -->
+  <text class='cart-allPrice'>合计:</text>
+  <text class='allPrice'>￥{{totalPrice}}</text>
+  <button class='btn-red' bindtap='toBuy' form-type='submit'>去结算</button>
+</view>

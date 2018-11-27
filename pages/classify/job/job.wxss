@@ -1,0 +1,50 @@
+/* pages/classify/job/job.wxss */
+.job-wrapper {
+  background-color: #fff;
+}
+.job-tip{
+  padding: 10rpx 20rpx;
+  color: red;
+  font-size: 28rpx;
+  background-color: #e6e6e6;
+  
+}
+
+.job-school {
+  display: inline-block;
+padding: 30rpx 40rpx;
+color: #444;
+font-size: 36rpx;
+
+}
+.contain{
+  padding-left: 20px;
+}
+.job{
+  display: inline-block;
+  position:relative;
+  right: -6px;
+  color: rgb(255, 255, 255)
+  
+}
+.bg{
+  background-color:rgb(93, 243, 79);
+  border-radius: 40rpx;
+  width: 50px;
+  height: 30px;
+  position:relative;
+  top:-26px;
+  right: -110px;
+}
+
+.font{
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.font-1{
+  font-size: 16px;
+}
+.font-2{
+  color:rgb(238, 84, 24);
+}

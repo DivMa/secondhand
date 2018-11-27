@@ -1,0 +1,8 @@
+<!--pages/search-book/search-book.wxml-->
+<view class='search'>
+  <view class='search-book'>
+    <icon type='search' size='16' class='search-icon'></icon>
+    <input class='search-input' placeholder='书名搜索' ></input>
+    <text class='search-search' >搜索</text>
+  </view>
+  </view>

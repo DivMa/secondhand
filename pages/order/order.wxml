@@ -1,0 +1,8 @@
+<!--pages/order/order.wxml-->
+<view class='containter'>
+  <view class='session-tab'>
+    <text class="tab-name {{showInThearter ? 'tab-select' : 'tab-normal'}}" data-tab-id='inThearters' bindtap='selectTap'>书籍</text>
+    <text class="tab-name {{showComingSoon ? 'tab-select' : 'tab-normal'}}" data-tab-id='comingSoon' bindtap='selectTap'>物品</text>
+  </view>
+  </view>
+ 

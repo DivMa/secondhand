@@ -1,0 +1,83 @@
+/* pages/mycar/mycar.wxss */
+.wrapper {
+  position: fixed;
+  top: 0rpx;
+  display: flex;
+  width: 100%;
+  height: 50rpx;
+  justify-content: space-around;
+  background-color: #fff;
+  z-index: 9999;
+}
+.select {
+ 
+  text-align: center;
+  width: 50%;
+  background-color: green;
+  color: #fff;
+}
+.noSelect {
+  width: 50%;
+  text-align: center;
+}
+
+
+.icon-wrapper {
+  line-height: 260rpx;
+}
+ 
+  .cart-bottom {
+    position: fixed;
+    width: 100%;
+    height: 100rpx;
+    background-color: white;
+    bottom: 0rpx;
+  }
+  .cart-allPrice {
+  float:left;
+   padding: 0.5rem;
+    font-weight: 100;
+    margin-left: 70rpx;
+  }
+  .allPrice {
+     float:left;
+    padding: 0.5rem;
+    font-weight: 100;
+   margin-left: -30rpx;
+   color: #f40;
+  }
+  .cart-allSelect {
+    float:left;
+    padding: 0.5rem;
+    margin-left: -23rpx;
+     font-weight: 100
+  }
+  .cart-iconAll {
+    float:left;
+    padding: 0.5rem;
+   margin-top: 7rpx;
+  }
+  .btn-red {
+  background-color: #f44336; /* 红色 */
+  font-size: 40rpx;
+}
+button {
+  position: fixed;
+  right: 0;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 30rpx;
+  border-radius: 0rpx;
+  width: 30%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.bottom {
+ 
+  color: #666;
+  text-align: center;
+  font-size: 30rpx;
+
+}

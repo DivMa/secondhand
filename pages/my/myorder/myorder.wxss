@@ -1,0 +1,13 @@
+/* pages/myorder/myorder.wxss */
+.header1 {
+  width: 750rpx;
+  height: 70rpx;
+  background-color: #666666; 
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.header1 view:hover {
+  border-bottom: 5rpx orange solid;
+  color: orange;
+}

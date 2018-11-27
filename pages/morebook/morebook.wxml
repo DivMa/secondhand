@@ -1,0 +1,24 @@
+<!--pages/morebook/morebook.wxml-->
+<view class='container'>
+<view><image src='http://img3m8.ddimg.cn/39/2/1900705098-1_l_1.jpg' class='book' bindtap='book'></image><view class='book-name'>漫威之父：超级英雄</view><view class='book-prize'>¥63.6</view></view>
+<view><image src='http://img3m8.ddimg.cn/13/30/24188188-1_l_3.jpg' class='book'></image><view class='book-name'>寻找时间的人</view><view class='book-prize'>¥20</view></view>
+</view>
+
+
+<view class='container'>
+<view><image src='http://img3m8.ddimg.cn/9/5/25306488-1_b_6.jpg' class='book'></image><view class='book-name'>人类的明天</view><view class='book-prize'>¥66</view></view>
+<view><image src='http://img3m7.ddimg.cn/58/36/1900654627-1_l_1.jpg' class='book'></image><view class='book-name'>白说(清新版)</view><view class='book-prize'>¥24.10</view></view>
+</view>
+
+<view class='container'>
+<view><image src='http://img3m5.ddimg.cn/6/30/1901093145-1_l_2.jpg' class='book'></image><view class='book-name'>深度思考：不断逼近</view><view class='book-prize'>¥23.8</view></view>
+<view><image src='http://img3m1.ddimg.cn/34/6/1901092381-1_l_2.jpg' class='book'></image><view class='book-name'>写作是最好的自我投资</view><view class='book-prize'>¥24.5</view></view>
+</view>
+
+
+<view class='container'>
+<view><image src='http://img3m5.ddimg.cn/81/23/25220925-1_l_3.jpg' class='book'></image><view class='book-name'>新东方 四级词汇词</view><view class='book-prize'>¥36</view></view>
+<view><image src='http://img3m4.ddimg.cn/71/12/1901086874-1_l_2.jpg' class='book'></image><view class='book-name'>好好说话2</view><view class='book-prize'>¥27.5</view></view>
+</view>
+
+<view class='more'>暂无更多</view>

@@ -1,0 +1,24 @@
+/* pages/systemNotification/systemNotification.wxss */
+
+.weui-media-box{
+  padding-bottom: 0px;
+}
+
+
+.weui-cells__title{
+  text-align: left;
+}
+textarea,input{
+  text-align: left;
+  color:#1e1e1e;
+}
+.weui-cells {
+  border:1px solid #3891f8;
+}
+.weui-cells__title{
+  padding-left: 0px;
+  color:#1e1e1e;
+}
+
+
+

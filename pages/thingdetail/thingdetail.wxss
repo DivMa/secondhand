@@ -1,0 +1,21 @@
+/* pages/thingdetail/thingdetail.wxss */
+ .cart-bottom {
+    position: fixed;
+    bottom: 0rpx;
+  }
+  .btn-red {
+  background-color: #f44336; 
+  font-size: 40rpx;
+  float: right;
+  width:160px;
+}
+.btn-orange{
+  background-color:orange; 
+  font-size: 40rpx;
+  float: left;
+   width: 160px;
+}
+.one{
+  line-height: 36px;
+  padding-left: 26px;
+}

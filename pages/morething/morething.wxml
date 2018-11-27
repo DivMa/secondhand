@@ -1,0 +1,25 @@
+<!--pages/morething/morething.wxml-->
+<view class='container'>
+<view><image src='http://img3m4.ddimg.cn/9/5/61870554-1_b_2.jpg' class='thing' bindtap='thing'></image><view class='thing-name'>USB迷你风扇(黑)</view><view class='thing-prize'>¥29</view></view>
+<view><image src='http://img3m5.ddimg.cn/21/32/61867695-1_b_5.jpg' class='thing' ></image><view class='thing-name'>牛皮纸布包背本套装</view><view class='thing-prize'>¥20</view></view>
+</view>
+
+<view class='container'>
+<view><image src='http://img3m7.ddimg.cn/44/24/1002670757-1_b_1.jpg' class='thing'></image><view class='thing-name'>搞笑表情中性笔</view><view class='thing-prize'>¥2</view></view>
+<view><image src='http://img3m7.ddimg.cn/74/19/1347183857-1_b_1.jpg' class='thing'></image><view class='thing-name'>韩国文艺女生单肩包</view><view class='thing-prize'>¥20</view></view>
+</view>
+
+<view class='container'>
+<view><image src='http://img3m7.ddimg.cn/54/31/1106285157-1_l_1.jpg' class='thing'></image><view class='thing-name'>椅垫椅子餐桌椅垫子</view><view class='thing-prize'>¥10</view></view>
+<view><image src='http://img3m1.ddimg.cn/57/26/1061920191-1_b_2.jpg' class='thing'></image><view class='thing-name'>原创文艺笔记本</view><view class='thing-prize'>¥10</view></view>
+</view>
+
+<view class='container'>
+<view><image src='http://img3m6.ddimg.cn/27/35/1193081796-1_b_1.jpg' class='thing'></image><view class='thing-name'>复古木质文具盒</view><view class='thing-prize'>¥10</view></view>
+<view><image src='http://img3m0.ddimg.cn/12/19/1133308650-1_b_1.jpg' class='thing' ></image><view class='thing-name'>日式清新文艺裸装本</view><view class='thing-prize'>¥5</view></view>
+</view>
+
+
+
+<view class='more'>暂无更多</view>
+

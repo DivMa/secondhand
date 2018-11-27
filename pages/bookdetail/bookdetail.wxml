@@ -1,0 +1,16 @@
+<!--pages/bookdetail/bookdetail.wxml-->
+<!-- 底部操作栏 -->
+<view class='cart-bottom'>
+    <button class='btn-orange' form-type='submit'>加入购物车</button>
+  <button class='btn-red' form-type='submit'>立即购买</button>
+</view>
+<view class='contain'><image src='http://img60.ddimg.cn/digital/product/50/98/1900705098_ii_cover.jpg?version=1639d739-37ee-4725-a546-11a4ceb4ea8d' class='cover'></image></view>
+<view class='hr'></view>
+<view class='one'>
+<view>书名：漫威之父 超级英雄的诞生</view>
+<view>价格 9.9</view>
+<view>发布者：铃铃铃</view>
+<view>校区：梅山校区</view>
+<view>成色：九成新</view>
+<view>联系电话：123456789</view>
+</view>

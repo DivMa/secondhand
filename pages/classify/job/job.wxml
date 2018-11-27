@@ -1,0 +1,34 @@
+<!--pages/classify/job/job.wxml-->
+<view class='job-wrapper'>
+  <view class='job-tip'>温馨提示：平台兼职信息为本校学生所发，信息真实性请与发布者核实后报名，凡收取费用的兼职请谨慎报名，以防被骗</view>
+  
+  <view class='job-school'>浙江工业职业技术学院学生兼职</view>
+  </view>
+
+  <view class='contain' bindtap='teacher'>
+  <view class='font'>家教老师</view><view class='bg'><view class='job'>兼职</view></view>
+  <view class='font-1'>浙工院北门学前教育</view>
+  <view class='font-1'>11.10号-12.12号</view>
+  <view class='font-1'>大二，大三学生</view>
+  <view class='font-2'>月结</view>
+  </view>
+
+  <view class='hr'></view>
+
+   <view class='contain'>
+  <view class='font'>超市促销员</view><view class='bg'><view class='job'>兼职</view></view>
+  <view class='font-1'>颐高广场一楼</view>
+  <view class='font-1'>11.20号-11.21号</view>
+  <view class='font-1'>男女不限，热情沟通能力好</view>
+  <view class='font-2'>日结，80一天</view>
+  </view>
+
+  <view class='hr'></view>
+
+   <view class='contain'>
+  <view class='font'>代拿快递</view><view class='bg'><view class='job'>兼职</view></view>
+  <view class='font-1'>浙工院各大快递站点</view>
+  <view class='font-1'>11.12号-11.23号</view>
+  <view class='font-1'>在校学生均可</view>
+  <view class='font-2'>日结，按个计</view>
+  </view>

@@ -1,0 +1,12 @@
+<!--pages/systemNotification/systemNotification.wxml-->
+<view class="weui-cells weui-cells_after-title">
+ 
+
+    <view class="weui-media-box weui-media-box_text">
+      <view class="weui-media-box__title weui-media-box__title_in-text">
+        暂无通知</view>
+     
+
+    </view>
+  
+</view>

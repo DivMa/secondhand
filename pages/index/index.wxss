@@ -1,0 +1,137 @@
+/**index.wxss**/
+/* 首页的轮播图 */
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper-image {
+  height: 100%;
+  width: 100%;
+}
+.slide-image{
+   height: 100%;
+  width: 100%;
+}
+/* 搜索 */
+.searchcion {
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  position: relative;
+  right:25rpx;
+  top: -52rpx;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  float: right;
+
+}
+.sousuo{
+  margin:auto;
+  margin-top: 4px;
+  height: 60rpx;
+  border-radius: 16px;
+  border: 1px solid rgb(194, 186, 177);
+}
+/* 分类 */
+.fenlei {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25rpx;
+  box-sizing: border-box;
+}
+.bg{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border: solid #f0eded  1px;
+  margin-right: 10px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.one{
+  background-color:orange;
+}
+.two{
+  background-color: forestgreen;
+}
+.three{
+  background-color: rgb(24, 166, 223);
+}
+.four{
+  background-color: rgb(194, 91, 214);
+}
+.title{
+  font-size: 18px;
+  padding-left: 6px;
+  padding-top: 6px;
+  color: white;
+  line-height: 34px;
+}
+.name{
+  padding-top: 14px;
+  padding-left: 1px;
+  font-size: 12px;
+}
+/* 今日推荐 */
+.tuijian-img {
+  position: absolute;
+  margin-top: 55rpx;
+  width: 100%;
+  height: 60rpx;
+  background: linear-gradient(to right, green , #3F7CC0  80%); 
+}
+.tuijian-img image{
+  position: absolute;
+  right: 0rpx;
+ width: 220rpx;
+  height: 60rpx;
+}
+.tuijian-cont {
+  position: absolute;
+  left: 10rpx;
+  top: 0rpx;
+  color: white;
+  font-weight: 600;
+}
+/* 推荐好书 */
+.session-header {
+  margin-top: 10rpx;
+  padding: 130rpx 20rpx;
+  display: flex;
+  align-items: center;
+}
+.distant{
+  margin-top: -110rpx;
+  
+}
+.header-title {
+  color: #4a4a4a;
+  flex: 1;
+  font-weight: 400;
+  font-size: 36rpx;
+
+}
+.header-more {
+  color: #32cd32;
+
+}
+.session-content {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  margin-top: -100rpx;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10rpx;
+  
+}
+.img{
+  width: 120px;
+  height: 108px;
+  
+}

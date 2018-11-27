@@ -1,0 +1,61 @@
+<!--index.wxml-->
+<!-- 首页的轮播图 -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 搜索框 -->
+<view class='sousuo' bindtap='bindSearchBook' >
+    <input class="" disabled placeholder="请输入书名等关键字" />
+    <icon class="searchcion" size='20' type='search'></icon>
+</view>
+<!-- 分类 -->
+<view class='fenlei'>
+<navigator url='../classify/thing-search/thing-search'>
+<view class='bg one' bindtap='thing-search' ><view class='title'>百货</view><view class='name'>校园百货</view></view>
+</navigator>
+<navigator url='../classify/job/job' >
+<view class='bg two'><view class='title'>兼职</view><view class='name'>学生兼职</view></view>
+</navigator>
+<navigator url='../classify/sale/sale' >
+<view class='bg three'><view class='title'>急售</view><view class='name'>限时急售</view></view>
+</navigator>
+<navigator url='../classify/welfare/welfare'>
+<view class='bg four'><view class='title'>公益</view><view class='name'>校园公益</view></view>
+</navigator>
+</view>
+ <!-- 今日推荐  -->
+
+<!-- 推荐好书 -->
+<view class='tuijian-img'>
+  <text class='tuijian-cont'>今日推荐</text>
+  <image src='../../images/tuijian.png'></image>
+</view>
+<view class='session-header'>
+      <text class='header-title'>推荐好书</text>
+      <text class='header-more' bindtap='morebook' >更多></text>
+    </view>
+    <view class='session-content'>
+      <scroll-view scroll-x="ture" >
+        <image src='http://img3m8.ddimg.cn/39/2/1900705098-1_l_1.jpg'   class='img' bindtap='book'></image>
+        <image src='http://img3m8.ddimg.cn/13/30/24188188-1_l_3.jpg'   class='img'></image>
+        <image src='http://img3m8.ddimg.cn/9/5/25306488-1_l_6.jpg'   class='img'></image>
+        <image src='http://img3m7.ddimg.cn/58/36/1900654627-1_l_1.jpg'   class='img'></image>
+      </scroll-view>
+  </view>
+<view class='session-header distant'>
+      <text class='header-title'>推荐好物</text>
+   <text class='header-more' bindtap='morething' >更多></text>
+    </view>
+    <view class='session-content'>
+      <scroll-view scroll-x="ture" >
+        <image src='http://img3m4.ddimg.cn/9/5/61870554-1_b_2.jpg'   class='img' bindtap='thing'></image>
+        <image src='http://img3m5.ddimg.cn/21/32/61867695-1_b_5.jpg'   class='img'></image>
+        <image src='http://img3m7.ddimg.cn/44/24/1002670757-1_b_1.jpg'   class='img'></image>
+        <image src='http://img3m0.ddimg.cn/4/18/1393211560-1_b_1.jpg'   class='img'></image>
+      </scroll-view>
+  </view>
+

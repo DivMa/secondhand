@@ -1,0 +1,12 @@
+<!--pages/classify/job/teacher/teacher.wxml-->
+<view class='contain'>
+  <view class='font'>家教老师</view><view class='bg'><view class='job'>兼职</view></view>
+  <view class='font-2'>月结</view>
+  <view class='font-1'>本职位由本校学生提供</view>
+  <view class='font-1'>工作地点：浙工院北门学前教育</view>
+  <view class='font-1'>工作时间：11.10号-12.12号</view>
+  <view class='font-1'>人员要求：大二，大三学生</view>
+  <view class='font-1'>详情描述：位置：学前教育培训机构兼职老师；工资：40元/小时；工作：初一英语，初二数学；时间：周二,周四</view>
+  <view class='font-1'>发布者：追风少年</view>
+  <view class='font-1'>联系方式：手机号123456789 同微信 </view>
+  </view>

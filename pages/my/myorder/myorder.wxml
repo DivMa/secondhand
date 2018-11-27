@@ -1,0 +1,11 @@
+<!--pages/myorder/myorder.wxml-->
+<view class="header1" >
+  <view >待收货</view>
+  <view>已确认</view>
+  <view >我的售卖</view>
+</view>
+
+
+  
+
+
